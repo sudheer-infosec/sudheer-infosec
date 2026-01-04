@@ -1,16 +1,43 @@
-## Hi there 👋
+# 👋 Hi, I'm Sudheer
 
-<!--
-**sudheer-infosec/sudheer-infosec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔐 Cyber Security Enthusiast | SOC Analyst Aspirant
 
-Here are some ideas to get you started:
+🛡️ Passionate about securing systems & networks  
+🔍 Interested in Blue Team, SOC Operations & SIEM  
+💻 Learning Ethical Hacking & Defensive Security  
+🎯 Long-term Goal: **CISO**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🧠 Skills
+- Networking & Linux
+- Cyber Security Fundamentals
+- Python (Basics)
+- Log Analysis (Learning)
+
+---
+
+## 📚 Currently Learning
+- SOC & Incident Response
+- SIEM Tools
+- Threat Intelligence
+- Ethical Hacking
+
+---
+
+## 📌 Projects
+- Cyber Security Notes
+- Linux Commands Practice
+- Python for Security
+- SOC Labs
+
+---
+
+## 📫 Connect with Me
+- GitHub: https://github.com/sudheer-sec
+- LinkedIn: https://www.linkedin.com/in/singuru-sudheer-b4916b345 
+- Twitter: https://x.com/SinguruSudheer
+
+---
+
+> "Security is not a product, it's a process."
