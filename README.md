@@ -2,42 +2,44 @@
 
 ## 🔐 Cyber Security Enthusiast | SOC Analyst Aspirant
 
-🛡️ Passionate about securing systems & networks  
-🔍 Interested in Blue Team, SOC Operations & SIEM  
-💻 Learning Ethical Hacking & Defensive Security  
+🛡️ Passionate about protecting systems & networks  
+🔍 Focused on Blue Team, SOC Operations & SIEM  
+💻 Learning Defensive Security, Python & Linux  
 🎯 Long-term Goal: **CISO**
 
 ---
 
-## 🧠 Skills
-- Networking & Linux
-- Cyber Security Fundamentals
-- Python (Basics)
-- Log Analysis (Learning)
+## 🧠 Skills & Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Networking](https://img.shields.io/badge/Networking-0078D6?style=for-the-badge&logo=netapp&logoColor=white)
+![SIEM](https://img.shields.io/badge/SIEM-4AB5F7?style=for-the-badge)
+![Cyber Security](https://img.shields.io/badge/Cyber_Security-FF0000?style=for-the-badge)
 
 ---
 
-## 📚 Currently Learning
-- SOC & Incident Response
-- SIEM Tools
-- Threat Intelligence
-- Ethical Hacking
+## 📚 Learning Path
+- SOC Operations & Incident Response  
+- Threat Intelligence & SIEM Tools  
+- Ethical Hacking & Defensive Security  
+- Python Automation for Security  
 
 ---
 
-## 📌 Projects
-- Cyber Security Notes
-- Linux Commands Practice
-- Python for Security
-- SOC Labs
+## 📌 Projects & Repos
+- 📓 `cyber-security-notes` → Notes, labs, and theory  
+- 🐍 `python-for-security` → Python scripts for pentesting & automation  
+- 🐧 `linux-security-basics` → Linux commands, hardening, and labs  
+- 🛡️ `SOC-lab-projects` → SOC exercises, logs, alerts, and dashboards  
 
 ---
 
-## 📫 Connect with Me
-- GitHub: https://github.com/sudheer-infosec 
-- LinkedIn: https://www.linkedin.com/in/singuru-sudheer-b4916b345 
-- Twitter: https://x.com/SinguruSudheer
+## 📫 Connect With Me
+- GitHub: [https://github.com/sudheer-infosec](https://github.com/sudheer-infosec)  
+- LinkedIn: [https://www.linkedin.com/in/singuru-sudheer-b4916b345]
+- Twitter: [https://x.com/SinguruSudheer]  
 
 ---
+
 
 > "Security is not a product, it's a process."
