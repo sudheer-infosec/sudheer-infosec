@@ -17,6 +17,40 @@
 ![Cyber Security](https://img.shields.io/badge/Cyber_Security-FF0000?style=for-the-badge)
 
 ---
+## 💻 My Skills
+
+[![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)](#python)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#javascript)  
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#linux)  
+[![Wireshark](https://img.shields.io/badge/Wireshark-1BA0E2?style=for-the-badge&logo=wireshark&logoColor=white)](#wireshark)  
+[![Kali Linux](https://img.shields.io/badge/KaliLinux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](#kali-linux)
+
+---
+
+## 🐍 Python
+- Automation scripts  
+- Data analysis with Pandas  
+- Basics of Ethical Hacking scripts  
+
+## 🟨 JavaScript
+- DOM Manipulation  
+- Event handling  
+- Simple web projects  
+
+## 🐧 Linux
+- Command-line basics  
+- File & process management  
+- Bash scripting  
+
+## 🕵️‍♂️ Wireshark
+- Packet capture & analysis  
+- Network traffic inspection  
+- Identifying suspicious activity  
+
+## 🖥️ Kali Linux
+- Penetration testing basics  
+- Vulnerability scanning  
+- Network security labs
 
 ## 📚 Learning Path
 - SOC Operations & Incident Response  
