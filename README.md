@@ -15,13 +15,7 @@
 ![Networking](https://img.shields.io/badge/Networking-0078D6?style=for-the-badge&logo=netapp&logoColor=white)
 ![SIEM](https://img.shields.io/badge/SIEM-4AB5F7?style=for-the-badge)
 ![Cyber Security](https://img.shields.io/badge/Cyber_Security-FF0000?style=for-the-badge)
-
----
-## 💻 My Skills
-
-[![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)](#python)  
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#javascript)  
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#linux)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#javascript)   
 [![Wireshark](https://img.shields.io/badge/Wireshark-1BA0E2?style=for-the-badge&logo=wireshark&logoColor=white)](#wireshark)  
 [![Kali Linux](https://img.shields.io/badge/KaliLinux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](#kali-linux)
 
