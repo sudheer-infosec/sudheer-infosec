@@ -34,7 +34,7 @@
 ---
 
 ## 📫 Connect with Me
-- GitHub: https://github.com/sudheer-sec
+- GitHub: https://github.com/sudheer-infosec 
 - LinkedIn: https://www.linkedin.com/in/singuru-sudheer-b4916b345 
 - Twitter: https://x.com/SinguruSudheer
 
