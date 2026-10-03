@@ -1,20 +1,12 @@
-﻿<p align="center">
-  <img
-    src="https://github.com/sudheer-infosec.png"
-    width="160"
-    height="160"
-    alt="Singuru Sudheer"
-  />
-</p>
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img src="./assets/dark.svg" alt="Singuru Sudheer â€” SUDHEER.SEC Cybersecurity Profile" width="100%">
+  <img src="./assets/dark.svg" alt="Singuru Sudheer — SUDHEER.SEC Cybersecurity Profile" width="100%">
 </picture>
 
-### `SUDHEER.SEC` â€” Cybersecurity â€¢ SOC â€¢ DFIR â€¢ Security Research
+### `SUDHEER.SEC` — Cybersecurity • SOC • DFIR • Security Research
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-SUDHEER.SEC-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sudheer-infosec.github.io/sudheer-portfolio-website/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Singuru%20Sudheer-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/singuru-sudheer-b4916b345)
@@ -30,16 +22,16 @@ I'm **Singuru Sudheer**, a **B.Sc. Computer Science** student building practical
 
 My focus:
 
-- ðŸ›¡ï¸ Security Operations & SOC workflows
-- ðŸ“¡ SIEM, log analysis & threat detection
-- ðŸš¨ Incident response & alert triage
-- ðŸ”Ž Digital forensics & evidence analysis
-- ðŸ§ª Ethical hacking & vulnerability assessment
-- ðŸŒ Network security & traffic analysis
-- ðŸ§¬ Malware-analysis learning labs
-- ðŸ“ Security documentation, tooling & research
+- 🛡️ Security Operations & SOC workflows
+- 📡 SIEM, log analysis & threat detection
+- 🚨 Incident response & alert triage
+- 🔎 Digital forensics & evidence analysis
+- 🧪 Ethical hacking & vulnerability assessment
+- 🌐 Network security & traffic analysis
+- 🧬 Malware-analysis learning labs
+- 📝 Security documentation, tooling & research
 
-> **Learn â†’ Practice â†’ Build â†’ Document â†’ Improve**
+> **Learn → Practice → Build → Document → Improve**
 
 ---
 
@@ -47,36 +39,36 @@ My focus:
 
 | Area | Tools / Technologies |
 |---|---|
-| **SOC / SIEM** | Wazuh â€¢ Splunk â€¢ SIEM workflows â€¢ Log Analysis |
-| **Network Security** | Wireshark â€¢ Nmap â€¢ Suricata â€¢ TCP/IP |
-| **DFIR** | Volatility 3 â€¢ Timesketch â€¢ Autopsy â€¢ Digital Evidence Workflows |
-| **Detection / Malware** | Sysmon â€¢ YARA â€¢ IOC analysis â€¢ Detection engineering |
-| **Offensive Security** | Kali Linux â€¢ Burp Suite â€¢ Metasploit â€¢ Ethical Hacking Labs |
-| **Systems** | Linux â€¢ Windows â€¢ PowerShell |
-| **Development** | Python â€¢ HTML â€¢ CSS â€¢ JavaScript â€¢ Git/GitHub |
-| **Research** | Threat Detection â€¢ Incident Response â€¢ Cyber Investigation |
+| **SOC / SIEM** | Wazuh • Splunk • SIEM workflows • Log Analysis |
+| **Network Security** | Wireshark • Nmap • Suricata • TCP/IP |
+| **DFIR** | Volatility 3 • Timesketch • Autopsy • Digital Evidence Workflows |
+| **Detection / Malware** | Sysmon • YARA • IOC analysis • Detection engineering |
+| **Offensive Security** | Kali Linux • Burp Suite • Metasploit • Ethical Hacking Labs |
+| **Systems** | Linux • Windows • PowerShell |
+| **Development** | Python • HTML • CSS • JavaScript • Git/GitHub |
+| **Research** | Threat Detection • Incident Response • Cyber Investigation |
 
 ---
 
-## `03 / OPERATIONS â€” HANDS-ON LABS`
+## `03 / OPERATIONS — HANDS-ON LABS`
 
-### ðŸ›°ï¸ Wazuh SOC Detection Lab
+### 🛰️ Wazuh SOC Detection Lab
 A practical SOC environment covering endpoint telemetry, network visibility and security-event investigation.
 
-**Lab stack:** Wazuh Server â€¢ Amazon Linux 2023 â€¢ Ubuntu + Suricata â€¢ Windows Server + Sysmon â€¢ Kali Linux
+**Lab stack:** Wazuh Server • Amazon Linux 2023 • Ubuntu + Suricata • Windows Server + Sysmon • Kali Linux
 
-**Detection focus:** SSH authentication events â€¢ sudo activity â€¢ critical-file monitoring â€¢ PowerShell activity â€¢ alert investigation
+**Detection focus:** SSH authentication events • sudo activity • critical-file monitoring • PowerShell activity • alert investigation
 
-### ðŸ§¬ Zeus Malware Hunt Lab
+### 🧬 Zeus Malware Hunt Lab
 Educational malware-analysis workflow focused on controlled samples, indicators, behavioral observations and investigation documentation.
 
-### ðŸ”Ž Digital Forensics Investigation Lab
+### 🔎 Digital Forensics Investigation Lab
 Hands-on practice with evidence acquisition concepts, artifact analysis, timeline reconstruction and forensic reporting.
 
-### ðŸ“± Mobile / Android Forensics
+### 📱 Mobile / Android Forensics
 Educational investigation workflows for mobile artifacts, application data and evidence interpretation.
 
-### ðŸ§° Cyber Intelligence Toolkit
+### 🧰 Cyber Intelligence Toolkit
 A collection of defensive investigation utilities and workflows for structured cybersecurity research.
 
 > All projects are intended for **authorized, educational, defensive and research purposes**.
@@ -86,7 +78,7 @@ A collection of defensive investigation utilities and workflows for structured c
 ## `04 / RESEARCH & BUILD`
 
 ```text
-Observe â†’ Collect evidence â†’ Analyze â†’ Detect â†’ Investigate â†’ Document â†’ Improve
+Observe → Collect evidence → Analyze → Detect → Investigate → Document → Improve
 ```
 
 Current project themes:
@@ -106,9 +98,9 @@ Current project themes:
 
 | Project | Focus |
 |---|---|
-| **Wazuh SOC Detection Lab** | SIEM â€¢ Detection â€¢ Monitoring |
+| **Wazuh SOC Detection Lab** | SIEM • Detection • Monitoring |
 | **CyberTrace** | Cyber investigation / intelligence interface |
-| **Digital Forensics Investigation Lab** | DFIR â€¢ Evidence analysis |
+| **Digital Forensics Investigation Lab** | DFIR • Evidence analysis |
 | **Cyber Intelligence Toolkit** | Investigation workflows |
 | **CustodyGuard** | Evidence / chain-of-custody concepts |
 | **Timesketch Labs** | Timeline analysis |
@@ -127,20 +119,20 @@ Current project themes:
 [+] Practice ethical security testing in authorized labs
 [+] Build investigation-focused projects
 [+] Document everything clearly
-[+] Grow from fundamentals â†’ advanced security operations
+[+] Grow from fundamentals → advanced security operations
 ```
 
 ### Career Direction
 
-**Cybersecurity â€¢ SOC Analyst â€¢ Threat Detection â€¢ Incident Response â€¢ Digital Forensics â€¢ Ethical Hacking â€¢ Security Research**
+**Cybersecurity • SOC Analyst • Threat Detection • Incident Response • Digital Forensics • Ethical Hacking • Security Research**
 
 ---
 
 ## `07 / CONNECT`
 
-- ðŸŒ **Portfolio:** https://sudheer-infosec.github.io/sudheer-portfolio-website/
-- ðŸ’¼ **LinkedIn:** https://www.linkedin.com/in/singuru-sudheer-b4916b345
-- ðŸ™ **GitHub:** https://github.com/sudheer-infosec
+- 🌐 **Portfolio:** https://sudheer-infosec.github.io/sudheer-portfolio-website/
+- 💼 **LinkedIn:** https://www.linkedin.com/in/singuru-sudheer-b4916b345
+- 🐙 **GitHub:** https://github.com/sudheer-infosec
 
 ---
 
@@ -159,4 +151,3 @@ $ sudo ./build-security.sh
 ```
 
 </div>
-
