@@ -1,10 +1,12 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img src="./assets/dark.svg" alt="Singuru Sudheer — SUDHEER.SEC Cybersecurity Profile" width="100%">
-</picture>
+<img
+  src="./assets/dark.svg"
+  alt="Singuru Sudheer — Cybersecurity"
+  width="100%"
+/>
+
+</div>
 
 ### `SUDHEER.SEC` — Cybersecurity • SOC • DFIR • Security Research
 
