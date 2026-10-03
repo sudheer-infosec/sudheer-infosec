@@ -1,535 +1,72 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" fill="none">
 <defs>
-
-  <!-- CORE BACKGROUND -->
-  <linearGradient id="bg" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#010308"/>
-    <stop offset=".48" stop-color="#030711"/>
-    <stop offset="1" stop-color="#010208"/>
-  </linearGradient>
-
-  <!-- CYBER GRADIENT -->
-  <linearGradient id="cyber" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#8B5CF6"/>
-    <stop offset=".38" stop-color="#22D3EE"/>
-    <stop offset=".7" stop-color="#06B6D4"/>
-    <stop offset="1" stop-color="#7C3AED"/>
-  </linearGradient>
-
-  <linearGradient id="terminal" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#22D3EE"/>
-    <stop offset=".5" stop-color="#67E8F9"/>
-    <stop offset="1" stop-color="#8B5CF6"/>
-  </linearGradient>
-
-  <!-- AMBIENT GLOWS -->
-  <radialGradient id="violetGlow">
-    <stop stop-color="#7C3AED" stop-opacity=".30"/>
-    <stop offset=".55" stop-color="#7C3AED" stop-opacity=".08"/>
-    <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
-  </radialGradient>
-
-  <radialGradient id="cyanGlow">
-    <stop stop-color="#06B6D4" stop-opacity=".24"/>
-    <stop offset=".55" stop-color="#06B6D4" stop-opacity=".06"/>
-    <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
-  </radialGradient>
-
-  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-    <stop stop-color="#08111D" stop-opacity=".96"/>
-    <stop offset="1" stop-color="#030812" stop-opacity=".94"/>
-  </linearGradient>
-
-  <!-- GRID -->
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40" stroke="#22D3EE" stroke-opacity=".055"/>
-  </pattern>
-
-  <!-- MICRO DOTS -->
-  <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
-    <circle cx="3" cy="4" r=".7" fill="#67E8F9" opacity=".11"/>
-    <circle cx="20" cy="27" r=".5" fill="#A78BFA" opacity=".09"/>
-  </pattern>
-
-  <!-- GLOW -->
-  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
-
-  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="18"/>
-  </filter>
-
-  <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="5" result="b"/>
-    <feMerge>
-      <feMergeNode in="b"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
-
-  <clipPath id="clip">
-    <rect width="1180" height="610" rx="30"/>
-  </clipPath>
-
+<linearGradient id="bg" x1="0" y1="0" x2="1180" y2="610"><stop stop-color="#05070D"/><stop offset=".55" stop-color="#070A12"/><stop offset="1" stop-color="#05070D"/></linearGradient>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="8s" repeatCount="indefinite"/></stop><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+<radialGradient id="g1"><stop stop-color="#7C3AED" stop-opacity=".28"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2"><stop stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="35"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="noise" width="80" height="80" patternUnits="userSpaceOnUse"><circle cx="10" cy="12" r=".7" fill="#fff" opacity=".08"/><circle cx="52" cy="34" r=".6" fill="#fff" opacity=".06"/><circle cx="30" cy="70" r=".5" fill="#fff" opacity=".05"/></pattern>
+<clipPath id="r"><rect width="1180" height="610" rx="30"/></clipPath>
 </defs>
-
-<g clip-path="url(#clip)">
-
-  <!-- BACKGROUND -->
-  <rect width="1180" height="610" fill="url(#bg)"/>
-  <rect width="1180" height="610" fill="url(#grid)"/>
-  <rect width="1180" height="610" fill="url(#dots)"/>
-
-  <!-- AMBIENT LIGHT -->
-  <circle cx="180" cy="80" r="270" fill="url(#violetGlow)" filter="url(#softGlow)">
-    <animateTransform attributeName="transform"
-      type="translate"
-      values="0 0;80 30;0 0"
-      dur="12s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <circle cx="1030" cy="520" r="280" fill="url(#cyanGlow)" filter="url(#softGlow)">
-    <animateTransform attributeName="transform"
-      type="translate"
-      values="0 0;-70 -35;0 0"
-      dur="15s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- TOP STATUS BAR -->
-  <rect x="28" y="24" width="1124" height="42" rx="12"
-        fill="#050A12"
-        stroke="#22D3EE"
-        stroke-opacity=".18"/>
-
-  <circle cx="52" cy="45" r="5" fill="#22D3EE" filter="url(#glow)">
-    <animate attributeName="opacity"
-      values=".35;1;.35"
-      dur="1.8s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <text x="68" y="50"
-        fill="#67E8F9"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="12"
-        font-weight="700"
-        letter-spacing="2">
-    SUDHEER.SEC // CYBER OPERATIONS NODE
-  </text>
-
-  <text x="920" y="50"
-        fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="10"
-        letter-spacing="1.5">
-    SYSTEM: ONLINE
-  </text>
-
-  <circle cx="1106" cy="45" r="4" fill="#10B981">
-    <animate attributeName="r"
-      values="3;5;3"
-      dur="1.6s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- LEFT IDENTITY PANEL -->
-  <rect x="28" y="82" width="390" height="500" rx="22"
-        fill="url(#panel)"
-        stroke="#FFFFFF"
-        stroke-opacity=".08"/>
-
-  <rect x="42" y="96" width="362" height="472" rx="17"
-        fill="none"
-        stroke="url(#cyber)"
-        stroke-opacity=".16"/>
-
-  <!-- IDENTITY LABEL -->
-  <text x="64" y="124"
-        fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="10"
-        letter-spacing="2">
-    IDENTITY / ACCESS PROFILE
-  </text>
-
-  <!-- ASCII / CYBER CORE -->
-  <g transform="translate(62 154)"
-     font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-     fill="url(#terminal)"
-     filter="url(#strongGlow)">
-
-    <text x="0" y="0" font-size="11">&gt; INITIALIZING SECURITY PROFILE...</text>
-    <text x="0" y="23" font-size="11">&gt; AUTH: VERIFIED</text>
-    <text x="0" y="46" font-size="11">&gt; ROLE: CYBERSECURITY</text>
-
-    <text x="0" y="82" font-size="12" font-weight="700">
-      ┌─────────────────────────────┐
-    </text>
-    <text x="0" y="100" font-size="12" font-weight="700">
-      │        S U D H E E R        │
-    </text>
-    <text x="0" y="118" font-size="12" font-weight="700">
-      │        S E C . O P S        │
-    </text>
-    <text x="0" y="136" font-size="12" font-weight="700">
-      └─────────────────────────────┘
-    </text>
-  </g>
-
-  <!-- NAME -->
-  <text x="62" y="326"
-        fill="#F8FAFC"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="25"
-        font-weight="800"
-        letter-spacing="1">
-    SUDHEER
-  </text>
-
-  <text x="62" y="350"
-        fill="#22D3EE"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="11"
-        font-weight="700"
-        letter-spacing="2">
-    CYBERSECURITY // SOC // DFIR
-  </text>
-
-  <!-- PROFILE METRICS -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-
-    <rect x="62" y="376" width="155" height="55" rx="10"
-          fill="#07111B"
-          stroke="#22D3EE"
-          stroke-opacity=".12"/>
-
-    <text x="77" y="398" fill="#64748B" font-size="9" letter-spacing="1.2">
-      PRIMARY FOCUS
-    </text>
-    <text x="77" y="417" fill="#E2E8F0" font-size="11" font-weight="700">
-      THREAT DETECTION
-    </text>
-
-    <rect x="227" y="376" width="155" height="55" rx="10"
-          fill="#07111B"
-          stroke="#8B5CF6"
-          stroke-opacity=".14"/>
-
-    <text x="242" y="398" fill="#64748B" font-size="9" letter-spacing="1.2">
-      OPERATIONS
-    </text>
-    <text x="242" y="417" fill="#E2E8F0" font-size="11" font-weight="700">
-      SOC / DFIR
-    </text>
-
-  </g>
-
-  <!-- TERMINAL PROMPT -->
-  <rect x="62" y="452" width="320" height="76" rx="12"
-        fill="#02050A"
-        stroke="#22D3EE"
-        stroke-opacity=".14"/>
-
-  <text x="78" y="476"
-        fill="#10B981"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="10">
-    sudo@sec-node:~$
-  </text>
-
-  <text x="78" y="497"
-        fill="#CBD5E1"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="10">
-    monitor --detect --analyze
-  </text>
-
-  <rect x="272" y="488" width="7" height="12" fill="#22D3EE">
-    <animate attributeName="opacity"
-      values="1;0;1"
-      dur="1s"
-      repeatCount="indefinite"/>
-  </rect>
-
-  <text x="78" y="518"
-        fill="#475569"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="9">
-    [ ACTIVE ] SECURITY PIPELINE
-  </text>
-
-  <!-- RIGHT COMMAND CENTER -->
-  <rect x="438" y="82" width="714" height="500" rx="22"
-        fill="url(#panel)"
-        stroke="#FFFFFF"
-        stroke-opacity=".08"/>
-
-  <!-- PANEL HEADER -->
-  <rect x="454" y="98" width="682" height="58" rx="14"
-        fill="#050B13"
-        stroke="#22D3EE"
-        stroke-opacity=".12"/>
-
-  <text x="474" y="121"
-        fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="9"
-        letter-spacing="1.8">
-    LIVE SECURITY TELEMETRY
-  </text>
-
-  <text x="474" y="143"
-        fill="#F8FAFC"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="15"
-        font-weight="800">
-    CYBER OPERATIONS DASHBOARD
-  </text>
-
-  <circle cx="1098" cy="119" r="6" fill="#10B981" filter="url(#glow)">
-    <animate attributeName="opacity"
-      values=".35;1;.35"
-      dur="1.5s"
-      repeatCount="indefinite"/>
-  </circle>
-
-  <!-- THREAT STATUS -->
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-
-    <rect x="454" y="172" width="212" height="104" rx="14"
-          fill="#061018"
-          stroke="#22D3EE"
-          stroke-opacity=".18"/>
-
-    <text x="472" y="195" fill="#64748B" font-size="9" letter-spacing="1.5">
-      THREAT MONITOR
-    </text>
-
-    <text x="472" y="227"
-          fill="#22D3EE"
-          font-size="27"
-          font-weight="800"
-          filter="url(#glow)">
-      ACTIVE
-    </text>
-
-    <text x="472" y="252" fill="#94A3B8" font-size="9">
-      detection engine operational
-    </text>
-
-    <rect x="472" y="260" width="150" height="2" rx="1" fill="#0F2730"/>
-    <rect x="472" y="260" width="112" height="2" rx="1" fill="#22D3EE">
-      <animate attributeName="width"
-        values="80;140;112;125;112"
-        dur="4s"
-        repeatCount="indefinite"/>
-    </rect>
-
-
-    <rect x="682" y="172" width="212" height="104" rx="14"
-          fill="#080914"
-          stroke="#8B5CF6"
-          stroke-opacity=".20"/>
-
-    <text x="700" y="195" fill="#64748B" font-size="9" letter-spacing="1.5">
-      ANALYSIS ENGINE
-    </text>
-
-    <text x="700" y="227"
-          fill="#A78BFA"
-          font-size="27"
-          font-weight="800"
-          filter="url(#glow)">
-      DFIR
-    </text>
-
-    <text x="700" y="252" fill="#94A3B8" font-size="9">
-      evidence • timeline • artifacts
-    </text>
-
-    <rect x="700" y="260" width="150" height="2" rx="1" fill="#211A35"/>
-    <rect x="700" y="260" width="96" height="2" rx="1" fill="#8B5CF6">
-      <animate attributeName="width"
-        values="70;125;96;115;96"
-        dur="4.5s"
-        repeatCount="indefinite"/>
-    </rect>
-
-
-    <rect x="910" y="172" width="226" height="104" rx="14"
-          fill="#06100F"
-          stroke="#10B981"
-          stroke-opacity=".18"/>
-
-    <text x="928" y="195" fill="#64748B" font-size="9" letter-spacing="1.5">
-      SECURITY STACK
-    </text>
-
-    <text x="928" y="225"
-          fill="#34D399"
-          font-size="13"
-          font-weight="700">
-      WAZUH  •  SURICATA
-    </text>
-
-    <text x="928" y="246"
-          fill="#CBD5E1"
-          font-size="10">
-      SIEM  •  IDS  •  LOGS
-    </text>
-
-    <text x="928" y="265"
-          fill="#475569"
-          font-size="8">
-      WINDOWS / LINUX / KALI
-    </text>
-
-  </g>
-
-  <!-- EVENT STREAM -->
-  <rect x="454" y="294" width="430" height="268" rx="14"
-        fill="#02060B"
-        stroke="#FFFFFF"
-        stroke-opacity=".07"/>
-
-  <text x="474" y="320"
-        fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="9"
-        letter-spacing="1.6">
-    EVENT STREAM / SECURITY LOG
-  </text>
-
-  <line x1="474" y1="333" x2="864" y2="333"
-        stroke="#FFFFFF" stroke-opacity=".06"/>
-
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-     font-size="9">
-
-    <text x="474" y="357" fill="#475569">09:41:02</text>
-    <text x="548" y="357" fill="#22D3EE">SSH</text>
-    <text x="592" y="357" fill="#CBD5E1">invalid authentication event</text>
-    <circle cx="846" cy="353" r="4" fill="#F59E0B"/>
-
-    <text x="474" y="390" fill="#475569">09:41:18</text>
-    <text x="548" y="390" fill="#A78BFA">DFIR</text>
-    <text x="592" y="390" fill="#CBD5E1">artifact indexed</text>
-    <circle cx="846" cy="386" r="4" fill="#8B5CF6"/>
-
-    <text x="474" y="423" fill="#475569">09:42:07</text>
-    <text x="548" y="423" fill="#10B981">SYS</text>
-    <text x="592" y="423" fill="#CBD5E1">endpoint heartbeat received</text>
-    <circle cx="846" cy="419" r="4" fill="#10B981"/>
-
-    <text x="474" y="456" fill="#475569">09:42:44</text>
-    <text x="548" y="456" fill="#22D3EE">SIEM</text>
-    <text x="592" y="456" fill="#CBD5E1">correlation rule triggered</text>
-    <circle cx="846" cy="452" r="4" fill="#22D3EE"/>
-
-    <text x="474" y="489" fill="#475569">09:43:11</text>
-    <text x="548" y="489" fill="#F59E0B">ALRT</text>
-    <text x="592" y="489" fill="#CBD5E1">suspicious activity flagged</text>
-    <circle cx="846" cy="485" r="4" fill="#F59E0B"/>
-
-    <text x="474" y="522" fill="#475569">09:43:39</text>
-    <text x="548" y="522" fill="#10B981">SOC</text>
-    <text x="592" y="522" fill="#CBD5E1">analyst workflow ready</text>
-    <circle cx="846" cy="518" r="4" fill="#10B981"/>
-
-  </g>
-
-  <!-- SKILL MATRIX -->
-  <rect x="902" y="294" width="234" height="268" rx="14"
-        fill="#050910"
-        stroke="#FFFFFF"
-        stroke-opacity=".07"/>
-
-  <text x="922" y="320"
-        fill="#64748B"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-        font-size="9"
-        letter-spacing="1.6">
-    SECURITY MODULES
-  </text>
-
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-     font-size="10">
-
-    <text x="922" y="353" fill="#E2E8F0">SOC / SIEM</text>
-    <rect x="922" y="362" width="180" height="4" rx="2" fill="#0F1D29"/>
-    <rect x="922" y="362" width="154" height="4" rx="2" fill="#22D3EE"/>
-
-    <text x="922" y="397" fill="#E2E8F0">THREAT DETECTION</text>
-    <rect x="922" y="406" width="180" height="4" rx="2" fill="#0F1D29"/>
-    <rect x="922" y="406" width="143" height="4" rx="2" fill="#8B5CF6"/>
-
-    <text x="922" y="441" fill="#E2E8F0">DIGITAL FORENSICS</text>
-    <rect x="922" y="450" width="180" height="4" rx="2" fill="#0F1D29"/>
-    <rect x="922" y="450" width="161" height="4" rx="2" fill="#10B981"/>
-
-    <text x="922" y="485" fill="#E2E8F0">NETWORK SECURITY</text>
-    <rect x="922" y="494" width="180" height="4" rx="2" fill="#0F1D29"/>
-    <rect x="922" y="494" width="137" height="4" rx="2" fill="#22D3EE"/>
-
-    <text x="922" y="529" fill="#E2E8F0">ETHICAL HACKING</text>
-    <rect x="922" y="538" width="180" height="4" rx="2" fill="#0F1D29"/>
-    <rect x="922" y="538" width="148" height="4" rx="2" fill="#A78BFA"/>
-
-  </g>
-
-  <!-- MOVING CYBER SCANNER -->
-  <rect x="438" y="82" width="3" height="500"
-        fill="#22D3EE"
-        opacity=".18">
-    <animate attributeName="x"
-      values="438;1149;438"
-      dur="8s"
-      repeatCount="indefinite"/>
-  </rect>
-
-  <!-- OUTER FRAME -->
-  <rect x="18" y="14" width="1144" height="582" rx="31"
-        fill="none"
-        stroke="url(#cyber)"
-        stroke-width="1.2"
-        stroke-opacity=".55"/>
-
-  <rect x="24" y="20" width="1132" height="570" rx="28"
-        fill="none"
-        stroke="#22D3EE"
-        stroke-opacity=".08"
-        stroke-dasharray="3 12"/>
-
-  <!-- MOVING BORDER -->
-  <rect x="18" y="14" width="1144" height="582" rx="31"
-        fill="none"
-        stroke="url(#cyber)"
-        stroke-width="2"
-        stroke-dasharray="100 900"
-        opacity=".85"
-        filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset"
-      values="0;-2000"
-      dur="6s"
-      repeatCount="indefinite"/>
-  </rect>
-
-  <!-- SCANLINE -->
-  <rect x="0" y="0" width="1180" height="2"
-        fill="#22D3EE"
-        opacity=".09">
-    <animate attributeName="y"
-      values="-5;610;-5"
-      dur="10s"
-      repeatCount="indefinite"/>
-  </rect>
-
+<g clip-path="url(#r)">
+<rect width="1180" height="610" fill="url(#bg)"/>
+<circle cx="170" cy="130" r="250" fill="url(#g1)" filter="url(#blur)"><animateTransform attributeName="transform" type="translate" values="0 0;90 35;0 0" dur="14s" repeatCount="indefinite"/></circle>
+<circle cx="1040" cy="500" r="230" fill="url(#g2)" filter="url(#blur)"><animateTransform attributeName="transform" type="translate" values="0 0;-70 -40;0 0" dur="16s" repeatCount="indefinite"/></circle>
+<rect width="1180" height="610" fill="url(#noise)"/>
+<rect x="28" y="28" width="1124" height="554" rx="28" fill="#070A12" fill-opacity=".82" stroke="#fff" stroke-opacity=".09"/>
+<rect x="48" y="48" width="405" height="514" rx="22" fill="#05070D" fill-opacity=".72" stroke="#fff" stroke-opacity=".22"/>
+<rect x="471" y="48" width="661" height="514" rx="22" fill="#05070D" fill-opacity=".78" stroke="#fff" stroke-opacity=".22"/>
+<rect x="28" y="28" width="1124" height="554" rx="28" fill="none" stroke="url(#a)" stroke-width="1" stroke-dasharray="90 760"><animate attributeName="stroke-dashoffset" values="0;-1700" dur="7s" repeatCount="indefinite"/></rect>
+
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<text x="78" y="92" fill="#334155" font-size="13">SUDHEER.SEC / IDENTITY_NODE</text>
+<circle cx="1035" cy="77" r="4" fill="#10B981"><animate attributeName="opacity" values=".3;1;.3" dur="1.6s" repeatCount="indefinite"/></circle>
+
+<g transform="translate(78 128)" fill="url(#a)" font-size="12" font-weight="700" filter="url(#glow)">
+<text x="0" y="0">&gt;_       .-''''-.       _&lt;</text>
+<text x="0" y="22">        .'  .--.  '.</text>
+<text x="0" y="44">       /   /    \   \</text>
+<text x="0" y="66">      |   |  Γùë  Γùë |   |</text>
+<text x="0" y="88">      |   |   __ |   |</text>
+<text x="0" y="110">      |   |  \__/ |   |</text>
+<text x="0" y="132">       \   \____/   /</text>
+<text x="0" y="154">        '._      _.'</text>
+<text x="0" y="176">           | || |</text>
+<text x="0" y="198">        ___| || |___</text>
+<text x="0" y="220">       /___ S E C ___\</text>
+<text x="0" y="242">      / S O C / D F I R \</text>
+<text x="0" y="264">     /____________________\</text>
+<animateTransform attributeName="transform" type="translate" values="78 128;78 123;78 128" dur="5s" repeatCount="indefinite"/>
 </g>
+<rect x="70" y="120" width="365" height="2" fill="#22D3EE" opacity=".25"><animate attributeName="y" values="120;520;120" dur="4.5s" repeatCount="indefinite"/></rect>
+<text x="78" y="465" fill="#334155" font-size="12">SYSTEM STATUS</text>
+<text x="78" y="490" fill="#10B981" font-size="13">ΓùÅ ONLINE / DEFENSIVE RESEARCH MODE</text>
+<text x="78" y="520" fill="#334155" font-size="11">Learn ΓåÆ Practice ΓåÆ Build ΓåÆ Document ΓåÆ Improve</text>
+
+<rect x="496" y="73" width="611" height="38" rx="12" fill="#05070D" fill-opacity=".82"/>
+<circle cx="518" cy="92" r="5" fill="#F87171"/><circle cx="536" cy="92" r="5" fill="#FBBF24"/><circle cx="554" cy="92" r="5" fill="#34D399"/>
+<text x="580" y="97" fill="#334155" font-size="12">sudheer@cyberops:~$ whoami</text>
+<text x="520" y="155" fill="#334155" font-size="13">Hi ≡ƒæï</text>
+<text x="520" y="193" fill="#070A12" font-size="34" font-weight="800">I'm Singuru Sudheer</text>
+<text x="520" y="222" fill="#22D3EE" font-size="15">Cybersecurity Student ΓÇó Ethical Hacker ΓÇó SOC Analyst</text>
+<text x="520" y="251" fill="#334155" font-size="13">SOC Operations ΓÇó Threat Detection ΓÇó Incident Response ΓÇó DFIR</text>
+<rect x="520" y="270" width="8" height="17" rx="1" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+
+<g font-size="12">
+<text x="520" y="318" fill="#334155">LOCATION</text><text x="660" y="318" fill="#070A12">Andhra Pradesh, India</text>
+<text x="520" y="346" fill="#334155">EDUCATION</text><text x="660" y="346" fill="#070A12">B.Sc. Computer Science</text>
+<text x="520" y="374" fill="#334155">FOCUS</text><text x="660" y="374" fill="#070A12">SOC ΓÇó SIEM ΓÇó DFIR ΓÇó Security Research</text>
+</g>
+<text x="520" y="415" fill="#334155" font-size="11">STACK / TOOLING</text>
+<g font-size="11" font-weight="700">
+<g fill="#070A12" stroke="#22D3EE" stroke-opacity=".35">
+<rect x="520" y="430" width="72" height="28" rx="14"/><rect x="602" y="430" width="75" height="28" rx="14"/><rect x="687" y="430" width="80" height="28" rx="14"/><rect x="777" y="430" width="82" height="28" rx="14"/><rect x="869" y="430" width="74" height="28" rx="14"/><rect x="953" y="430" width="76" height="28" rx="14"/><rect x="1039" y="430" width="68" height="28" rx="14"/>
+</g>
+<g fill="#070A12"><text x="536" y="448">Wazuh</text><text x="617" y="448">Splunk</text><text x="704" y="448">Suricata</text><text x="793" y="448">Wireshark</text><text x="885" y="448">Nmap</text><text x="968" y="448">Volatility</text><text x="1051" y="448">YARA</text></g>
+</g>
+<text x="520" y="490" fill="#334155" font-size="11">PORTFOLIO</text><text x="620" y="490" fill="#22D3EE" font-size="12">sudheer-infosec.github.io/...</text>
+<text x="520" y="522" fill="#334155" font-size="11">MISSION</text><text x="620" y="522" fill="#070A12" font-size="12">Build safer digital systems through hands-on security.</text>
+</g></g>
+<rect x="2" y="2" width="1176" height="606" rx="30" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2"/>
 </svg>
