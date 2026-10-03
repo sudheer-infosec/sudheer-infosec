@@ -1,7 +1,7 @@
 ﻿<div align="center">
 
 <img
-  src="./assets/dark.svg"
+  src="./assets/light.svg"
   alt="Singuru Sudheer â€” Cybersecurity"
   width="100%"
 />
@@ -153,4 +153,5 @@ $ sudo ./build-security.sh
 ```
 
 </div>
+
 
